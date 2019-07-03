@@ -1,0 +1,25 @@
+{
+  "name": "swagger_express",
+  "version": "1.0.0",
+  "description": "Express API with swagger docs and validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adalbertorsilva/swagger_express.git"
+  },
+  "keywords": [
+    "swagger",
+    "express",
+    "validation",
+    "api"
+  ],
+  "author": "Adalbeto Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adalbertorsilva/swagger_express/issues"
+  },
+  "homepage": "https://github.com/adalbertorsilva/swagger_express#readme"
+}
