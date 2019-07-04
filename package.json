@@ -4,7 +4,8 @@
   "description": "Express API with swagger docs and validation",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start-dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/adalbertorsilva/swagger_express/issues"
   },
-  "homepage": "https://github.com/adalbertorsilva/swagger_express#readme"
+  "homepage": "https://github.com/adalbertorsilva/swagger_express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^3.2.9",
+    "swagger-tools": "^0.10.4",
+    "swagger-ui-express": "^4.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
