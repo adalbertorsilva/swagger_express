@@ -40,7 +40,8 @@ const router = require('express').Router()
   *     consumes:
   *       - application/json
   *     parameters:
-  *       - in: body
+  *       - name: body
+  *         in: body
   *         schema:
   *           $ref: '#/definitions/helloPayload'
   *           type: object
@@ -49,9 +50,6 @@ const router = require('express').Router()
   *               type: string
   *             lastName:
   *               type: string
-  *         required:
-  *           - firstName
-  *           - lastName
   *     responses:
   *       200:
   *         description: Success response

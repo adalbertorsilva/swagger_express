@@ -27,8 +27,7 @@ app.use('/hello', helloRouter)
 
 swaggerTools.initializeMiddleware(swaggerSpec, ( middleware ) => {
 
-    console.log(' CHEGAMOS AQUI !!!!!! ')
-    // app.use(middleware.swaggerValidator())
+    app.use(middleware.swaggerValidator())
 
     app.listen(3000, () => {
         console.log('SERVER UP !')
