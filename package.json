@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/adalbertorsilva/swagger_express#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "oas3-chow-chow": "^0.15.1",
     "openapi3-middleware": "^1.1.0",
     "swagger-jsdoc": "^3.2.9",
